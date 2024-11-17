@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply font-poppins;
+}
+
+.light {
+  @apply bg-white text-gray-950;
+}
+
+.dark {
+  @apply bg-gray-950 text-white;
+}
